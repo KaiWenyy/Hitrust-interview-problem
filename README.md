@@ -12,7 +12,8 @@ Web crawler with captcha
 *  `python test.py --id <businessID>`
 > businessID: 16313302 as default
 ## Train model from scratch
-* Train with the labeled data `python train.py`
+* Train with the labeled data
+	* unzip *img.zip* and run `python train.py`
 * Train with data collected by your own
 	* Run `python collect_data.py` to collect captcha data from [website](https://www.etax.nat.gov.tw/cbes/web/CBES113W1_1) 
 	* Label data and save as the following format with filename `labels.txt`
