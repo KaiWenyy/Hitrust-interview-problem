@@ -18,6 +18,7 @@ Web crawler with captcha
 	* Label data and save as the following format with filename `labels.txt`
 
 ![labels](https://drive.google.com/uc?export=view&id=1xBlRNAeqvGD-mrNyylLo9cjNs0yk0Xx4)
+
 	* Run `python label_data.py` to pack the same letter images in a folder
 	* Train the model `python train.py` and save as `captcha_model.hdf5`
 ## Details
