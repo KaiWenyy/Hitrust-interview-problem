@@ -8,7 +8,10 @@ from imutils import contours
 from skimage import measure
 import numpy as np
 
-
+if not os.path.exists('img/full/'):
+	os.makedirs('img/full/')
+if not os.path.exists('img/seg/'):
+	os.makedirs('img/seg/')
 
 img_url = "https://www.etax.nat.gov.tw/cbes/front/Common/CBEScaptcha/CAPTCHA_SESSION:174ebfe1d71000006cb5686b09dd11ef"
 
@@ -45,7 +48,7 @@ for _ in range(200):
 	for (i, c) in enumerate(cnts):
 		# draw the bright spot on the image
 		(x, y, w, h) = cv2.boundingRect(c)
-		print(x, y, w, h, w/h)
+		#print(x, y, w, h, w/h)
 		# handle "j"
 		if w*h < 30:
 			prev_coord = rects.pop()
