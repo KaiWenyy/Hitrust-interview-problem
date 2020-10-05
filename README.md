@@ -6,8 +6,7 @@ Web crawler with captcha
 * Install packages
 > pip install -r requirements.txt
 * Check your chrome version and download *Webdriver* from [here](https://chromedriver.chromium.org/downloads)
-* Move *Webdriver for chrome* to the current folder 
-* Download [model](https://drive.google.com/file/d/1xOy02BaAeRnaHmeNH5hTV7F7ZyhtdoyX/view?usp=sharing) to the current folder 
+* Move *Webdriver for chrome* to the current folder
 ## Run 
 *  `python test.py --id <businessID>`
 > businessID: 16313302 as default
