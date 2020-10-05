@@ -16,6 +16,7 @@ Web crawler with captcha
 * Train with data collected by your own
 	* Run `python collect_data.py` to collect captcha data from [website](https://www.etax.nat.gov.tw/cbes/web/CBES113W1_1) 
 	* Label data and save as the following format with filename `labels.txt`
+	
 	![labels](https://drive.google.com/uc?export=view&id=1xBlRNAeqvGD-mrNyylLo9cjNs0yk0Xx4)
 
 	* Run `python label_data.py` to pack the same letter images in a folder
